@@ -4,7 +4,7 @@ let GETCATEGORIES = `
     from categories as c
     left join products as p on p.category_id = c.category_id
     group by c.category_id
-    `
+`
 
 let GETIMAGES = `
     select * from images
